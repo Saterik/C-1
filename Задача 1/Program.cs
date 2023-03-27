@@ -8,7 +8,11 @@ Console.WriteLine("Введите первое число:");
 Console.WriteLine("Введите второе число:");
  int numberB = Convert.ToInt32(Console.ReadLine());
  if (numberA > numberB)
-  Console.WriteLine($"max = {numberA}");
+  {
+    Console.WriteLine($"max = {numberA}");
+  }
  else
-  Console.WriteLine($"max = {numberB}");
+ {
+    Console.WriteLine($"max = {numberB}");
+ } 
 
